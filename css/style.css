@@ -6,6 +6,18 @@ body{
     min-height: 100vh !important;
 }
 
+.gray-img{
+    filter: gray;
+    -webkit-filter: grayscale(0.85);
+    filter: grayscale(0.85);
+    transition: filter 1s ease !important;
+}
+
+.gray-img:hover{
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
 @media (min-width: 2000px) {
     p{
         font-size: 1.3rem;
