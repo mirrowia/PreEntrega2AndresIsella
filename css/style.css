@@ -1,0 +1,15 @@
+body{
+    min-height: 100vh;
+}
+
+#main{
+    min-height: 100vh !important;
+}
+
+@media (min-width: 2000px) {
+    p{
+        font-size: 1.3rem;
+    }
+
+}
+
